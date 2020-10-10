@@ -1,0 +1,50 @@
+.ns {
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+
+}
+.ns-box {
+    background-color: grey;
+    height: 50px;
+    width: 50px;
+    border: 2px solid blue;
+}
+/* .ns-box1 {
+    margin-right: auto;
+    
+}
+.ns-box1,
+.ns-box2 {
+    margin: auto;
+}
+.ns-box3 {
+    margin-left: 0px;
+}
+.ns-box2 {
+    margin-right: 0px;
+    margin-left: -50px;
+} */
+/* .ns-box1 {
+    order: 2;
+}
+.ns-box2 {
+    order: 5;
+}
+.ns-box3 {
+    order: 1;
+} */
+
+.ns-box1 {
+    /* flex: flex-grow,flex-shrink,flex */
+    flex: 2;
+}
+.ns-box2 {
+    flex: 1;
+}
+.ns-box3 {
+    flex: 1;
+}
