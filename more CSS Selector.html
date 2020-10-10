@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on Selectors</title>
+    <style>
+        h2{
+            background-color: red;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+        }
+        /* div p li{
+            color: yellow;
+            font-weight: bold;
+            background-color: green;
+        } */
+        /* div > p means div ka direct parent p ho */
+          div > p{
+            color: yellow;
+            font-weight: bold;
+            background-color: green;
+        } 
+         /* p is right after div then this css will be applied */
+          div + p{
+            color: white;
+            background-color: rgb(104, 9, 9);
+        } 
+
+    </style>
+</head>
+<body>
+    <h2>This is on more selectors</h2>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item"><p>This is another paragraph inside item</p></li>
+            </ul>
+            <p>This is a paragraph</p>
+    </div>
+       <p>This is another paragraph</p>
+   </div>
+   <p>This is outermost paragraph</p>
+</body>
+</html>

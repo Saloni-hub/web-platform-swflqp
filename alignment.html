@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+
+        }
+        .container{
+            width: 900px;
+            border: 3px solid purple;
+            margin:auto;
+            background-color: sandybrown;
+        }
+        .item{
+            border: 3px solid gray;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(157, 184, 174);
+        }
+        #fruits{
+            float: left;
+            width: 48%;
+        }
+        #computer{
+            float: right;
+            width: 48%;
+
+        }
+        #stationary{
+            /* float: left; */
+            clear: both;;
+            width: 100%;
+
+        }
+        p,h3{
+            text-align: right;
+            text-align: left;
+            text-align: center;
+            text-align: justify;
+        }
+        h1{
+            margin: auto;
+            width: 455px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to my Store</h1>
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt possimus blanditiis placeat tenetur. Porro dignissimos explicabo temporibus, quod voluptate architecto debitis neque ea voluptatum! Voluptatem inventore eius voluptate fuga explicabo. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, quis facilis debitis voluptates praesentium iusto asperiores cumque nemo quaerat sunt consequatur, ipsam quam at laboriosam eos omnis officia nobis rerum.</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate dolorem labore perferendis quidem minus quo! Distinctio, quas. Nostrum quaerat sit omnis eaque quidem, rerum consequuntur ea voluptatum nobis laboriosam Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio cumque explicabo eveniet dolores odio voluptatem rerum velit, possimus veritatis, commodi neque! Minima, est modi quidem eligendi et tenetur ipsa cupiditate! </p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam neque ipsum atque deleniti, ad nesciunt veritatis? Libero tempora provident reprehenderit ea! Dolor qui accusantium cumque, laboriosam quibusdam voluptas optio sapiente?</p>
+        </div>
+        <div id="glasses" class="item">
+            <h3>Stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam neque ipsum atque deleniti, ad nesciunt veritatis? Libero tempora provident reprehenderit ea! Dolor qui accusantium cumque, laboriosam quibusdam voluptas optio sapiente? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, dignissimos! Odit, impedit et. Rem nulla, ipsam est, minus maxime consectetur fuga sunt non modi eius, placeat consequatur fugiat porro velit?</p>
+        </div>
+    </div>
+    
+</body>
+</html>
